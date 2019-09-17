@@ -3,7 +3,12 @@
 // Keep it simple! Remember a closure is just a function
 // that manipulates variables defined in the outer scope.
 // The outer scope can be a parent function, or the top level of the script.
+let a = 0;
+function myFunction() {
+  return a + 10;
+}
 
+console.log(myFunction());
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
